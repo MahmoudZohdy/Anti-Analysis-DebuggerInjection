@@ -23,7 +23,7 @@ In This Project i try to highlight some interesting Anti-Analysis technique, it 
 [4] the ShellCode Call the Original **WaitForDebugEvent** and see the return value of the function, if the event is caused by EXCEPTION_SINGLE_STEP (HW Break Point) it remove the break point and Calls **WaitForDebugEvent** again and the debugger will not notice the ocarance of the event.
 
 
-This is just a POC there is lots of things that you can do here it depends only on your imagination and creativity.
+This is just a POC there is lots of things that you can do here it depends only on your **imagination** and **creativity**.
 
 # Note:
 it does not work on Windbg as Windbg call **ntdll!ZwWaitForDebugEvent** directly and does not call **WaitForDebugEvent** (the one we hook)

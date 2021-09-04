@@ -30,3 +30,5 @@ it does not work on Windbg as Windbg call **ntdll!ZwWaitForDebugEvent** directly
 This is just a POC there is lots of things that you can do here it depends only on your **imagination** and **creativity**.
 
 i am not very experinced it writing windows ShellCode so in case of any crash please let me know.
+
+this project is for educational purpose only.

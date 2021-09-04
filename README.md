@@ -1,7 +1,7 @@
 # Anti-Analysis-DebuggerInjection
 
 In This Project i try to highlight some interesting Anti-Analysis technique, it works by injecting ShellCode inside the debugger itself while it debug our process and control what event the debugger receive from us,
-in our case we removed all the event that is caused by HW Break Point.
+in our case i removed all the event that is caused by HW Break Point.
 
 ### i divided the work to the folowning steps:
 

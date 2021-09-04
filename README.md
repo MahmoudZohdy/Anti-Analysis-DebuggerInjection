@@ -4,7 +4,7 @@ In This Project i try to highlight some interesting Anti-Analysis technique, it 
 
 ### i divided the work to the folowning steps:
 
-[1] detect the presence of debugger (i uses Enumerate runninng process technique, you can change it you can find lots of ways to detect debugger online).
+[1] detect the presence of debugger (i used Enumerate runninng process technique, you can change it you can find lots of ways to detect debugger online).
 
 [2] inject the shellcode inside the debugger (used CreateRemoteThread injection Technique, you can see my other project for more injection technique [link](https://github.com/MahmoudZohdy/Process-Injection-Techniques)).
 

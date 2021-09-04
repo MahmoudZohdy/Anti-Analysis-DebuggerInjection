@@ -2,7 +2,7 @@
 
 In This Project i try to highlight some interesting Anti-Analysis technique, it works by injecting ShellCode inside the debugger itself while it debug our process and control what event the debugger receive from us.
 
-i divided the work to the folowning steps:
+### i divided the work to the folowning steps:
 
 [1] detect the presence of debugger (i uses Enumerate runninng process technique, you can change it you can find lots of ways to detect debugger online).
 
@@ -10,7 +10,9 @@ i divided the work to the folowning steps:
 
 [3] sleep for 4 second to let our ShellCode Hook WaitForDebugEvent without causing any event which will lead to crash the debugger.
 
-the Demo ShellCode Works as Follow:
+
+
+### the Demo ShellCode Works as Follow:
 
 [1] it resolve all the function that it uses during execution.
 
